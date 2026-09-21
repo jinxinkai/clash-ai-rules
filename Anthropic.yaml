@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,clau.de
   - DOMAIN-SUFFIX,claudemcpclient.com
   - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
   # CDN 和静态资源
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,anthropic.com.cdn.cloudflare.net
