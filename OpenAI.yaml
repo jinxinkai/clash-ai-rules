@@ -37,6 +37,8 @@ payload:
   - DOMAIN-SUFFIX,featuregates.org
   # 关键字 / IP 兜底
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-KEYWORD,codex
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve
   - IP-ASN,20473,no-resolve
