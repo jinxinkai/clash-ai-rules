@@ -5,3 +5,7 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,cursorvm.com
+  - PROCESS-NAME,Cursor
+  - PROCESS-NAME,Cursor.exe
+  - PROCESS-NAME,cursor
