@@ -11,6 +11,15 @@ payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.org
+  # 客户端进程（ChatGPT Desktop / Codex App / Codex CLI，需 TUN 或系统代理 + find-process-mode）
+  - PROCESS-NAME,ChatGPT
+  - PROCESS-NAME,ChatGPT.exe
+  - PROCESS-NAME,chatgpt
+  - PROCESS-NAME,Codex
+  - PROCESS-NAME,Codex.exe
+  - PROCESS-NAME,codex
+  - PROCESS-NAME,codex.exe
   # CDN & API
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
   - DOMAIN,openaiapi-site.azureedge.net
@@ -35,10 +44,15 @@ payload:
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org
+  # 客服 / 帮助中心 (Intercom)
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
   # 关键字 / IP 兜底
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,chatgpt
   - DOMAIN-KEYWORD,codex
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-ASN,20473,no-resolve
+  - IP-CIDR,199.47.142.0/23,no-resolve
+  - IP-CIDR6,2604:f20::/32,no-resolve
+  - IP-ASN,401518,no-resolve

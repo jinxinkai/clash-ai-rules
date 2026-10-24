@@ -12,7 +12,7 @@ Clash 分流规则集合，覆盖主流 AI 服务与 AI 编程工具，帮助你
 | `Cursor.yaml` | Cursor | 5 | Cursor AI 编辑器、CDN、API 及 WorkOS 认证 |
 | `Gemini.yaml` | Google Gemini | 15 | Gemini / Bard / DeepMind / AI Studio / Colab |
 | `Meta.yaml` | Meta AI | ~392 | Meta 全家族（Facebook / Instagram / WhatsApp / Messenger / Oculus 等） |
-| `OpenAI.yaml` | OpenAI / ChatGPT | 43 | ChatGPT、Sora、DALL·E 及相关 CDN / Auth / 支付 / 实时通信 |
+| `OpenAI.yaml` | OpenAI / ChatGPT | 47 | ChatGPT、Sora、Codex 及相关 CDN / 实时通信 / 客户端进程 / 自有 IP 段 |
 | `Trae.yaml` | Trae AI（字节跳动） | 11 | Trae AI 编辑器及后端基础设施 |
 | `Windsurf.yaml` | Windsurf / Codeium | 2 | Windsurf AI 编辑器 |
 | `xAI.yaml` | xAI / Grok / X | 32 | Grok AI 与 X (Twitter) 平台全量域名及 IP |
